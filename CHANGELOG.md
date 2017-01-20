@@ -1,5 +1,12 @@
 # Android SDK Change Log
 
+## 0.23.6
+
+### Bug fixes
+   * Support for identity updates via transport push (APPS-2676)
+   * Fixed crash when receiving FCM push or token update before `LayerClient.newInstance()` is called when upgrading to `0.23.1+` (APPS-2720)
+   * Performance improvements
+   
 ## 0.23.5
 
 ### Features
