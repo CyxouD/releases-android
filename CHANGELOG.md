@@ -1,5 +1,13 @@
 # Android SDK Change Log
 
+## 0.23.7
+
+### Features
+   * Add ability to log private information, e.g. the FCM token. Enable this with `LayerClient.setPrivateLoggingEnabled(true)`.
+   
+### Bug fixes
+   * Fixed images occasionally getting stuck in a pending state (APPS-2724)
+   
 ## 0.23.6
 
 ### Bug fixes
