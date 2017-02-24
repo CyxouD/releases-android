@@ -1,5 +1,16 @@
 # Android SDK Change Log
 
+## 0.23.10
+
+### Bug fixes
+   * Sending FCM token to Layer servers when messaging version changes (APPS-2753)
+   * Fixed crash when conversation has a participant with an empty string for a user ID (APPS-2668)
+   * Fixed bug where message content directory wasn't deleted on de-authentication (APPS-2773)
+   * Only delete the FCM token for the alternate sender ID (if one is specified) on de-authentication (APPS-2713)
+
+## 0.23.9 -- ROLLED BACK due to bug. please update to 0.23.10
+
+
 ## 0.23.8
 
 ### Features
