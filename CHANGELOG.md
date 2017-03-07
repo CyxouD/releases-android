@@ -1,5 +1,11 @@
 # Android SDK Change Log
 
+## 0.23.11
+
+### Bug fixes
+   * Fixing crash when authenticating with a different user ID than what is currently saved (APPS-2817)
+   * Clearing the nonce latch on an `EIT_NONCE_NOT_FOUND` error so authentication doesn't get stuck (APPS-2808)
+
 ## 0.23.10
 
 ### Bug fixes
@@ -9,7 +15,6 @@
    * Only delete the FCM token for the alternate sender ID (if one is specified) on de-authentication (APPS-2713)
 
 ## 0.23.9 -- ROLLED BACK due to bug. please update to 0.23.10
-
 
 ## 0.23.8
 
