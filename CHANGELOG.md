@@ -1,10 +1,21 @@
 # Android SDK Change Log
 
+## 0.23.12
+
+### Features
+   * Upgraded FCM library to `10.2.0`
+   
+### Bug fixes
+   * Add validation to `newConversation` and `addMemebers` to reject empty user-id (APPS-2733)
+   * Add validation to EIT in `answerAuthenticationChallenge` (APPS-2223)
+   * Fixed FCM push issue when a conversation has read receipts disabled (APPS-2944) 
+
 ## 0.23.11
 
 ### Bug fixes
    * Fixing crash when authenticating with a different user ID than what is currently saved (APPS-2817)
    * Clearing the nonce latch on an `EIT_NONCE_NOT_FOUND` error so authentication doesn't get stuck (APPS-2808)
+   * Fixing possible missing metadata during first sync (APPS-2810)
 
 ## 0.23.10
 
