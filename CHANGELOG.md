@@ -1,4 +1,12 @@
 # Android SDK Change Log
+## 0.23.13
+
+### Features
+   * Add support for `Presence`
+   * Performance optimizations (APPS-2690)
+   * `ContentAvailableCallback` is updated to callback in UI thread (APPS-2558)
+
+### Bug fixes
 
 ## 0.23.12
 
