@@ -1,4 +1,15 @@
 # Android SDK Change Log
+
+## 0.23.15
+
+### Features 
+   * Added support for Telemetry. Please see the [Android Documentation](https://docs.layer.com/sdk/android/privacy#telemetry) for further details
+
+### Bug Fixes
+   * Performing preverification during builds to fix `VerifyError`s during unit tests (AND-557)
+
+## 0.23.14 -- ROLLED BACK due to bug. please update to 0.23.15
+
 ## 0.23.13
 
 ### Features
