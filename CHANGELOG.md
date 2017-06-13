@@ -1,5 +1,12 @@
 # Android SDK Change Log
 
+## 0.23.16
+
+### Bug Fixes
+   * Fix issues with `Presence` due to connection state (AND-978)
+   * Fix to recover authentication when session is cleared due to network issues (AND-483)
+   * Fix OOM issues during sync (AND-983)
+
 ## 0.23.15
 
 ### Features 
