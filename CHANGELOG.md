@@ -1,5 +1,11 @@
 # Android SDK Change Log
 
+## 0.23.17
+
+### Bug Fixes
+   * Improved Logging
+   * Better exception handling for Telmetry Data (AND-1016)
+
 ## 0.23.16
 
 ### Bug Fixes
