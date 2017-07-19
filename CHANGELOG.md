@@ -1,10 +1,16 @@
 # Android SDK Change Log
 
+## 0.23.18
+
+### Bug Fixes
+   * Ensure first sync is of type Historic Sync (AND-1031)
+   * Ensure invalid Telemetry data is never loaded or persisted (AND-1032)
+
 ## 0.23.17
 
 ### Bug Fixes
    * Improved Logging
-   * Better exception handling for Telmetry Data (AND-1016)
+   * Better exception handling for Telemetry Data (AND-1016)
 
 ## 0.23.16
 
