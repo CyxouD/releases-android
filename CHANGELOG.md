@@ -1,5 +1,13 @@
 # Android SDK Change Log
 
+## 0.23.19
+
+### Features
+   * Added support for `markAllMessagesAsRead` for a `Conversation` (AND-929)
+
+### Bug Fixes
+   * Fixed crash when using a custom endpoint without specifying a telemetry URL (AND-1040)
+   
 ## 0.23.18
 
 ### Bug Fixes
