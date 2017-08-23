@@ -1,5 +1,14 @@
 # Android SDK Change Log
 
+## 0.23.20
+
+### Features
+   * Upgraded FirebaseJobDispatcher library to `0.7.0`
+
+### Bug Fixes
+   * Fixed crash due to ConcurrentModificationException when persisting telemetry data (AND-1058)
+   * Register FCM token updates on a separate thread to support O's background policy (AND-991)
+
 ## 0.23.19
 
 ### Features
