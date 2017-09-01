@@ -1,5 +1,10 @@
 # Android SDK Change Log
 
+## 0.23.21
+
+### Bug Fixes
+   * Fixed crash when marking all messages as read where an unsent message is included (AND-1075)
+
 ## 0.23.20
 
 ### Features
