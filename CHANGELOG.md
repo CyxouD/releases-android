@@ -1,5 +1,10 @@
 # Android SDK Change Log
 
+## 0.23.22
+
+### Bug Fixes
+   * Add new certificate to pinned certificate list (AND-1090)
+   
 ## 0.23.21
 
 ### Bug Fixes
