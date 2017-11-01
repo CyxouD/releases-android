@@ -1,5 +1,10 @@
 # Android SDK Change Log
 
+## 0.23.23
+
+### Bug Fixes
+    * Fix a crash when processing events during sync (AND-1096)
+
 ## 0.23.22
 
 ### Bug Fixes
