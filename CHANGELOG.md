@@ -1,5 +1,10 @@
 # Android SDK Change Log
 
+## 0.23.24
+
+### Bug Fixes
+    * Fix telemetry data json serialized names getting removed by proguard
+
 ## 0.23.23
 
 ### Bug Fixes
